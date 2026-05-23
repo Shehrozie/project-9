@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-style: border-box;
+}
+
+.Container {
+  background-color: #ededed;
+  margin: 2rem 1rem;
+  padding: 2rem;
+}
+
+#title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 900;
+  padding: 1rem 0;
+}
+.TitleParagraph {
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 1rem 2rem;
+}
+.ImgArea {
+  background-color: white;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#image {
+  max-width: 40rem;
+  min-width: 20rem;
+  display: block;
+  max-width: 100%;
+}
+#tribute-info {
+  padding: 1rem 5rem;
+  text-align: center;
+}
+h3 {
+  padding: 3rem 0;
+  text-align: center;
+}
+ul {
+  text-align: start;
+  width: 100%;
+}
+li {
+  margin: 2rem 0;
+}
+.TextAndLink {
+  font-weight: 900;
+}
+
+@media only screen and (max-width: 600px){
+  * {
+    margin: 0;
+    padding: 0;
+    border-style: border-box;
+  }
+  
+  .Container {
+    background-color: #ededed;
+    margin: 1rem 0.5rem;
+    padding: 1rem;
+  }
+  
+  #title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0.5rem 0;
+  }
+  .TitleParagraph {
+    font-size: 0.7rem;
+    padding: 0.5rem 0;
+  }
+  .ImgArea {
+    background-color: white;
+    padding: 0.5rem;
+  }
+  #image {
+    width: 100%; 
+    display: block;
+    max-width: 100%;
+  }
+  #tribute-info {
+    padding: 0.5rem 2.5rem;
+  }
+  h3 {
+    padding: 1.5rem 0;
+  }
+  li {
+    margin: 1rem 0;
+  }
+  .TextAndLink {
+    font-weight: 300;
+  }  
+}
